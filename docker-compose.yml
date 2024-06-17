@@ -9,7 +9,7 @@ services:
       - UMASK_SET=000 #optional
     volumes:
       - /mnt/Partage/Logiciels/deluge/config:/config:rw
-      - /mnt/Partage/Logiciels/deluge/downloads:/downloads:rw
+      - /mnt/Partage/Logiciels/deluge/DelugeDL:/downloads:rw
     ports:
       - 8112:8112
       - 6881:6881
